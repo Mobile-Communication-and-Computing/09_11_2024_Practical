@@ -5,7 +5,7 @@ import Childcomp from './Components/Childcomp';
 function App() {
   const [childName, setChildName] = useState("Default");
   const receiveName = (name) => {
-    setChildname(name);
+    setChildName(name);
   }
   return (
     <div className="App">
